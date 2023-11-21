@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <link href="/output.css" rel="stylesheet">
+    <title>Body Systems</title>
+
+    <meta name="title" content="Body Systems">
+    <meta name="description" content="Tu programa de bienestar híbrido, multidimensional y simple para los colaboradores de tu empresa.">
+    <meta name="keywords" content="bienestar, salud">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Etiquetas openGraph -->
+    <meta property="og:description" content="Tu programa de bienestar híbrido, multidimensional y simple para los colaboradores de tu empresa.">
+    <meta property="og:title" content="BodySystems - Bienestar corporativo, wellbeing &amp; wellness">
+    <meta name="twitter:description" content="Tu programa de bienestar híbrido, multidimensional y simple para los colaboradores de tu empresa.">
+    <meta name="twitter:title" content="BodySystems - Bienestar corporativo, wellbeing &amp; wellness">
+
+</head>
+<body>
+    <header>
+        <nav class="">
+            <div class="container flex flex-wrap lg:flex-nowrap items-center justify-between py-4">
+              <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                  <img src="./assets/images/logo.png" class="" alt="Logo Body Systems">
+              </a>
+              <button data-collapse-toggle="navbar-default" type="button" id="mobile-btn" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary-color rounded-lg lg:hidden hover:bg-gray-100" aria-expanded="false">
+                  <span class="sr-only">menu</span>
+                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                      <path stroke="red " stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                  </svg>
+              </button>
+              <div class="hidden w-full lg:block lg:w-auto" id="navbar">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4   lg:flex-row md:space-x-4 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white items-center" >
+                    <li>
+                        <a href="#" title="Ir a Nosotros" class="block py-2 px-3 font-DMSans font-bold text-text-black hover:text-primary-color">¿Por qué nosotros?</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Ir a Plataforma digital de wellness" class="block py-2 px-3 font-DMSans font-bold text-text-black hover:text-primary-color">Plataforma digital de wellness</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Ir a Blog" class="block py-2 px-3 font-DMSans font-bold text-text-black hover:text-primary-color">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Ir a Servicios" class="block py-2 px-3 font-DMSans font-bold text-text-black hover:text-primary-color">Servicios</a>
+                    </li>
+                  <li class="w-full lg:w-48">
+                    <button class="red-button w-full lg:w-48">Sign up</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner bg-[url('./assets/images/home/banner-mobile.png')] lg:bg-[url('./assets/images/home/banner.png')] bg-center bg-no-repeat bg-cover">
+        <div class="container">
+            <div class="banner-container flex flex-col lg:flex-row items-start pt-10 lg:pt-40">
+                <div class="relative w-full lg:w-1/2 h-auto pb-60">
+                    <div class="title">
+                        <h1 class="text-white font-DMSans text-[38px] lg:text-[50px] font-bold  lg:pr-24">Tu programa de bienestar para los colaboradores de tu empresa.</h1>
+                        <p class="text-white font-DMSans text-[20px] font-normal lg:pr-24">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos.</p>
+                    </div>
+                    <img class="block absolute left-[18%] lg:right-[8.5rem] bottom-[5%] lg:bottom-[12rem] animate-ping delay-300" src="./assets/images/home/cruz.png" alt="cruz">
+                    <img class="block absolute left-[0] lg:right-1/3 bottom-20 animate-pulse" src="./assets/images/home/arrows.png" alt="arrows">
+                </div>
+                <div class="relative w-full lg:w-1/2 flex justify-end">
+                    <img class="block absolute right-[14%] lg:right-[93%] top-[-22%] lg:top-[41%] animate-ping" src="./assets/images/home/cruz.png" alt="cruz">
+                    <img class="block absolute top-[-14%] right-[22%] lg:right-[85%] lg:top-[50%] animate-pulse" src="./assets/images/home/arrows.png" alt="arrows">
+
+                    <div class="form-card rounded-md bg-white p-5 w-full lg:w-3/4 mb-10">
+                        <h2 class="text-2xl font-DMSans text-text-black font-bold">Start here</h2>
+                        <form name="contactForm" id="loginForm" class="loginForm text-center" novalidate>
+                        
+                            <div class="my-5">
+                                <input class="nameLogin w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color" type="text" name="name" id="nameLogin" placeholder="Name" >
+                                <small class="error hidden"></small>
+                            </div>
+                            <div class="my-5">
+                                <input class="telLogin w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950" type="text" name="telLogin" id="telLogin" placeholder="Phone">
+                                <small class="error hidden"></small>
+                            </div>
+                            <div class="my-5">
+                                <input class="emailLogin w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color"  type="email" name="email" id="emailLogin" placeholder="Email" >
+                                <small class="error hidden"></small>
+                            </div>
+                            <div>
+                            <button class="red-button w-full mt-20" type="submit">Contact us</button>
+                            <small class="block text-left text-text-gray font-DMSans font-normal text-base mt-5 mb-7">*-required</small>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="graph mt-20">
+        <div class="container">
+            <div class="graph-container md:flex md:justify-between">
+                <div class="description md:w-3/4">
+                    <h2 class="font-DMSans font-bold text-[32px] lg:text-[44px] tracking-wider lg:mt-20">Esto es posible porqué las empresas...</h2>
+                    <p class="font-DMSans font-medium text-[20px] my-7 w-full lg:w-[29rem]">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. Mazim nemore singulis an ius, nullam ornatus nam ei.</p>
+                    <a href="#" class="red-button w-48 block text-center" title="Learn more">Learn more</a>
+                </div>
+
+                <div class="image border-gray-200 border rounded my-9 overflow-hidden h-full md:w-1/2 px-5">
+                    <img class="block w-full" src="./assets/images/home/grafica.png" alt="Gráfica">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps my-7 md:my-10 lg:my-32">
+        <div class="container">
+            <div class="md:flex md:justify-between">
+                <div class="image md:1/4 lg:w-1/2">
+                    <div class="circle">
+                        <img src="./assets/images/home/Oval.png" alt="Persona">
+                    </div>
+                </div>
+                <div class="steps-container md:3/4 lg:w-1/2">
+                    <ul class="md:px-16 mt-5">
+                        <li class="flex">
+                            <div class="line mr-7 mt-1 relative">
+                                <div class=" h-3 w-3 rounded-full bg-primary-color z-2 mt-4 block absolute top-0 left-0"></div>
+                                <div class="h-44 m-[5px] mt-4 bg-primary-color block" style="width: 1px;"></div>
+                            </div>
+                            <p class="text-4xl font-DMSans text-text-black font-bold">1.</p>
+                            <div class="ml-5">
+                                <h3 class="font-DMSans text-text-black text-2xl font-bold">Great team work</h3>
+                                <p class="font-DMSans font-normal text-text-gray">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. Mazim nemore singulis an ius, nullam ornatus nam ei.</p>
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <div class="line mr-7 relative">
+                                <div class=" h-3 w-3 rounded-full bg-primary-color z-2 block absolute top-0 left-0"></div>
+                                <div class="h-40 m-[5px] mt-4 bg-primary-color block" style="width: 1px;"></div>
+                            </div>
+                            <p class="text-4xl font-DMSans text-text-black font-bold">2.</p>
+                            <div class="ml-5">
+                                <h3 class="font-DMSans text-text-black text-2xl font-bold">Career prospects</h3>
+                                <p class="font-DMSans font-normal text-text-gray">Vix habeo scaevola percipitur ne, qui noster abhorreant ne, mea in dicant eligendi evertitur. Ad falli aliquid menandri his. Usu vocent copiosae ut. No nihil munere eum.</p>
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <div class="line mr-7 relative">
+                                <div class=" h-3 w-3 rounded-full bg-primary-color z-2 block absolute top-0 left-0"></div>
+                            </div>
+                            <p class="text-4xl font-DMSans text-text-black font-bold">3.</p>
+                            <div class="ml-5">
+                                <h3 class="font-DMSans text-text-black text-2xl font-bold">Beautiful workspace</h3>
+                                <p class="font-DMSans font-normal text-text-gray">Te aliquam noluisse his. Et vel epicuri detracto indoctum, et fierent pericula vim, veniam epicuri an eum. Ad mutat quaestio erroribus eam, ei mea modus volumus abhorreant.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog bg-[url('assets/images/home/bg-blog.png')] py-8 lg:py-16" >
+        <div class="container">
+            <div class=" lg:flex lg:pb-5">
+                <h2 class="lg:w-1/2 font-DMSans text-[32px] lg:text-[44px] text-text-black font-bold mb-10">Nuestro Blog</h2>
+                <p class="lg:w-1/2 font-DMSans text-base text-text-black font-normal mb-8">An mel corpora consectetuer. Duo veri eripuit honestatis ei. Mandamus expetenda has ex. Eu minim movet quodsi eum. Et vim dolore epicurei, ut aeque postea nam, at posse dicta.</p>
+            </div>
+            <div class="lg:flex  lg:justify-between" id="blog-container">
+               <!--  <div class="blog-card">
+                    <h3 class="font-DMSans font-bold mb-2 text-2xl">Beneficios fiscales
+                        al arrendar un auto</h3>
+                    <p class="font-DMSans font-normal mb-2 text-base">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. </p>
+                    <a href="#" title="Learn more" class="font-DMSans font-bold mb-2 text-base hover:text-accent-color">Learn more</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="salud bg-accent-color py-16 ">
+        <div class="container">
+            <h2 class="font-DMSans text-[32px] lg:text-[44px] text-white text-center md:px-12 lg:px-24">Salud física, emocional,</h2>
+            <h2 class="font-DMSans text-[32px] lg:text-[44px] text-white text-center md:px-12 lg:px-24">financiera, nutrición, familia y muchos más.</h2>
+            <div class="lg:flex lg:gap-4 lg:justify-between mt-10">
+                <div class="salud-card">
+                    <h3 class="font-DMSans text-base font-normal tracking-wider uppercase">PROBATUS</h3>
+                    <h4 class="font-DMSans text-[56px] font-normal">42%</h4>
+                    <p class="font-DMSans text-xs font-bold">Veritus</p>
+                </div>
+                <div class="salud-card">
+                    <h3 class="font-DMSans text-base font-normal tracking-wider uppercase">graeco</h3>
+                    <h4 class="font-DMSans text-[56px] font-normal">73%</h4>
+                    <p class="font-DMSans text-xs font-bold">Affert verterem</p>
+                </div>
+                <div class="salud-card">
+                    <h3 class="font-DMSans text-base font-normal tracking-wider uppercase">diceret</h3>
+                    <h4 class="font-DMSans text-[56px] font-normal">99%</h4>
+                    <p class="font-DMSans text-xs font-bold">Probo semper</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="plans bg-[#eeeeee] py-20">
+        <div class="container">
+            <h2 class="font-DMSans text-text-black font-bold text-[32px] lg:text-[44px] text-center mb-12">El camino del éxito</h2>
+
+            <div class="my-slider">
+                <div>
+                    <a href="#" title="Ir al plan" class="plan-card group">
+                        <span class="bg-[#eeeeee]  rounded-full w-[70px] h-[70px] m-auto mb-4 flex justify-center items-center group-hover:bg-accent-color">
+                            <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="group-hover:fill-white" d="M21.6971 11.5312V9.46878H26.6683V11.5312H21.6971ZM23.2678 20.786L19.2909 17.8033L20.5443 16.1587L24.5211 19.1413L23.2678 20.786ZM20.4913 4.78846L19.238 3.14378L23.2149 0.161099L24.4683 1.80577L20.4913 4.78846ZM4.21881 19.411V14.0432H2.81734C2.13163 14.0432 1.54593 13.8004 1.06026 13.3148C0.574612 12.8291 0.331787 12.2434 0.331787 11.5577V9.44232C0.331787 8.7566 0.574612 8.17091 1.06026 7.68524C1.54593 7.19959 2.13163 6.95676 2.81734 6.95676H8.13223L14.2933 3.28132V17.7187L8.13223 14.0432H6.28124V19.411H4.21881ZM16.1971 14.7889V6.21107C16.7366 6.69937 17.1711 7.31459 17.5007 8.05673C17.8304 8.79888 17.9952 9.61331 17.9952 10.5C17.9952 11.3867 17.8304 12.2011 17.5007 12.9433C17.1711 13.6854 16.7366 14.3006 16.1971 14.7889ZM2.81734 9.01923C2.71158 9.01923 2.61462 9.0633 2.52646 9.15143C2.43832 9.23959 2.39425 9.33655 2.39425 9.44232V11.5577C2.39425 11.6634 2.43832 11.7604 2.52646 11.8486C2.61462 11.9367 2.71158 11.9808 2.81734 11.9808H8.70337L12.2308 14.0539V6.94614L8.70337 9.01923H2.81734Z" fill="#3C1053"/>
+                            </svg>                            
+                        </span>
+                        <h3 class="text-text-black group-hover:text-accent-color text-2xl font-bold font-DMSans mb-8">Simple plan</h3>
+                        <ul>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Lorem deterruisset</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Hinc lorem</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Autem molestiae</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Mei mazim</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Feugait electram</li>
+                        </ul>
+                        <h4 class="text-accent-color text-[56px] font-bold">$9</h4>
+                        <p class="block m-auto border border-accent-color rounded-full p-3 text-accent-color text-base font-DMSans font-bold w-56 mb-10 group-hover:bg-accent-color group-hover:text-white">Buy</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" title="Ir al plan" class="plan-card group">
+                        <span class="bg-[#eeeeee]  rounded-full w-[70px] h-[70px] m-auto mb-4 flex justify-center items-center group-hover:bg-accent-color">
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-accent-color group-hover:fill-white" d="M12.1159 30.0649L9.66205 25.9293L5.00293 24.9086L5.45774 20.112L2.30054 16.5L5.45774 12.888L5.00293 8.09139L9.66205 7.07073L12.1159 2.93514L16.5 4.79669L20.8841 2.93514L23.3379 7.07073L27.9971 8.09139L27.5422 12.888L30.6994 16.5L27.5422 20.112L27.9971 24.9086L23.3379 25.9293L20.8841 30.0648L16.5 28.2033L12.1159 30.0649ZM12.9937 27.4313L16.5 25.9452L20.0486 27.4313L22 24.1313L25.7812 23.2639L25.4375 19.3875L27.9812 16.5L25.4375 13.5702L25.7812 9.69375L22 8.86875L20.0062 5.56875L16.5 7.05482L12.9514 5.56875L11 8.86875L7.21874 9.69375L7.56249 13.5702L5.01874 16.5L7.56249 19.3875L7.21874 23.3063L11 24.1313L12.9937 27.4313ZM15.0562 20.9053L22.349 13.6125L20.9 12.1212L15.0562 17.9649L12.1 15.051L10.651 16.5L15.0562 20.9053Z" fill="white"/>
+                            </svg>                                                            
+                        </span>
+                        <h3 class="text-text-black group-hover:text-accent-color text-2xl font-bold font-DMSans mb-8">Normal plan</h3>
+                        <ul>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Lorem deterruisset</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Hinc lorem</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Autem molestiae</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Mei mazim</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Feugait electram</li>
+                        </ul>
+                        <h4 class="text-accent-color text-[56px] font-bold">$24</h4>
+                        <p class="block m-auto border border-accent-color rounded-full p-3 text-accent-color text-base font-DMSans font-bold w-56 mb-10 group-hover:bg-accent-color group-hover:text-white">Buy</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" title="Ir al plan" class="plan-card group">
+                        <span class="bg-[#eeeeee]  rounded-full w-[70px] h-[70px] m-auto mb-4 flex justify-center items-center group-hover:bg-accent-color">
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="group-hover:fill-white" d="M10.577 28.1875V26.125H15.4688V21.4129C14.3018 21.1785 13.2705 20.6875 12.375 19.9401C11.4795 19.1927 10.8431 18.261 10.4659 17.1452C8.87936 16.9565 7.54051 16.2831 6.44933 15.125C5.35813 13.9668 4.81253 12.5918 4.81253 11V9.625C4.81253 9.06267 5.0157 8.57835 5.42203 8.17204C5.82835 7.7657 6.31267 7.56253 6.875 7.56253H10.0746V4.81253H22.9254V7.56253H26.125C26.6873 7.56253 27.1716 7.7657 27.578 8.17204C27.9843 8.57835 28.1875 9.06267 28.1875 9.625V11C28.1875 12.5918 27.6419 13.9668 26.5507 15.125C25.4595 16.2831 24.1206 16.9565 22.5341 17.1452C22.1569 18.261 21.5205 19.1927 20.625 19.9401C19.7294 20.6875 18.6982 21.1785 17.5312 21.4129V26.125H22.423V28.1875H10.577ZM10.0746 14.9293V9.625H6.875V11C6.875 11.959 7.17556 12.8012 7.77669 13.5266C8.37781 14.252 9.14377 14.7196 10.0746 14.9293ZM16.5 19.4351C17.7075 19.4351 18.7322 19.0142 19.5739 18.1725C20.4157 17.3307 20.8365 16.3061 20.8365 15.0986V6.875H12.1635V15.0986C12.1635 16.3061 12.5843 17.3307 13.4261 18.1725C14.2678 19.0142 15.2924 19.4351 16.5 19.4351ZM22.9254 14.9293C23.8562 14.7196 24.6222 14.252 25.2233 13.5266C25.8244 12.8012 26.125 11.959 26.125 11V9.625H22.9254V14.9293Z" fill="#3C1053"/>
+                            </svg>                      
+                        </span>
+                        <h3 class="text-text-black group-hover:text-accent-color text-2xl font-bold font-DMSans mb-8">Pro plan</h3>
+                        <ul>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Lorem deterruisset</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Hinc lorem</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Autem molestiae</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Mei mazim</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Feugait electram</li>
+                        </ul>
+                        <h4 class="text-accent-color text-[56px] font-bold">$38</h4>
+                        <p class="block m-auto border border-accent-color rounded-full p-3 text-accent-color text-base font-DMSans font-bold w-56 mb-10 group-hover:bg-accent-color group-hover:text-white">Buy</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" title="Ir al plan" class="plan-card group">
+                        <span class="bg-[#eeeeee]  rounded-full w-[70px] h-[70px] m-auto mb-4 flex justify-center items-center group-hover:bg-accent-color">
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              
+                                <path class="group-hover:fill-white" d="M3.25246 28.2932V4.23077H16.3149V9.73077H29.7476V28.2932H3.25246ZM5.31489 26.2308H8.75242V22.7932H5.31489V26.2308ZM5.31489 20.7308H8.75242V17.2932H5.31489V20.7308ZM5.31489 15.2308H8.75242V11.7932H5.31489V15.2308ZM5.31489 9.73077H8.75242V6.29324H5.31489V9.73077ZM10.8149 26.2308H14.2524V22.7932H10.8149V26.2308ZM10.8149 20.7308H14.2524V17.2932H10.8149V20.7308ZM10.8149 15.2308H14.2524V11.7932H10.8149V15.2308ZM10.8149 9.73077H14.2524V6.29324H10.8149V9.73077ZM16.3149 26.2308H27.6851V11.7932H16.3149V15.2308H19.3293V17.2932H16.3149V20.7308H19.3293V22.7932H16.3149V26.2308ZM22.3438 17.2932V15.2308H24.4062V17.2932H22.3438ZM22.3438 22.7932V20.7308H24.4062V22.7932H22.3438Z" fill="#000000"/>
+                                
+                            </svg>                                                         
+                        </span>
+                        <h3 class="text-text-black group-hover:text-accent-color text-2xl font-bold font-DMSans mb-8">Enterprise</h3>
+                        <ul>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Lorem deterruisset</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Hinc lorem</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Autem molestiae</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Mei mazim</li>
+                            <li class="text-base font-DMSans text-text-gray group-hover:text-accent-color font-normal mb-3">Feugait electram</li>
+                        </ul>
+                        <h4 class="text-accent-color text-[56px] font-bold">$99</h4>
+                        <p class="block m-auto border border-accent-color rounded-full p-3 text-accent-color text-base font-DMSans font-bold w-56 mb-10 group-hover:bg-accent-color group-hover:text-white">Buy</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact my-10 md:my-20">
+        <div class="container">
+            <h2 class="text-center font-DMSans text-base text-text-black uppercase tracking-wider">Contact</h2>
+            <h3 class="text-primary-color font-DMSans text-[40px] font-bold text-center">Get in touch</h3>
+            <form name="contactForm" id="contactForm" action="/" method="post" class="contactForm text-center" novalidate>
+                <div class="flex flex-col md:flex-row justify-center">
+                    <div class="my-2 md:m-5">
+                        <input class="name form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color" type="text" name="name" id="name" placeholder="Your name" >
+                        <small class="error hidden"></small>
+                    </div>
+                    <div class="my-2 md:m-5">
+                        <input class="company form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color" type="text" name="company" id="company" placeholder="Your company" >
+                        <small class="error hidden"></small>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row justify-center">
+                    <div class="my-2 md:m-5">
+                        <input class="email form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color"  type="email" name="email" id="email" placeholder="Your email" >
+                        <small class="error hidden"></small>
+                    </div>
+                    <div class="my-2 md:m-5">
+                        <input class="tel form-input focus:outline-none focus:right-1 focus:ring-purple-950" type="text" name="tel" id="tel" placeholder="Your phone">
+                    </div>
+                </div>
+                <button class="red-button w-40 lg:w-48 mt-5" type="submit">Contact us</button>
+                <small class="enviado block py-5 text-green-600 font-DMSans text-base"></small>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="bg-accent-color pt-14 text-white">
+        <div class="container">
+            <div class="footer-container flex flex-col lg:flex-row lg:justify-between lg:flex-start">
+                <div class="logo mb-14 lg:mb-0">
+                    <img src="./assets/images/logo-footer.png" alt="Logo Footer">
+                </div>
+                <div class="about w-60 mb-14">
+                    <h5 class="font-DMSans font-bold pb-3 text-2xl">About</h5>
+                    <p class="font-DMSans font-normal text-base">Erroribus vituperatoribus no eos, no nobis alienum qui ei, exerci dissentiet eum tacimates recusabo scripserit, in mea tantas soleat imperdiet.</p>
+                </div>
+                <div class="contact w-60 mb-14 lg:mb-9">
+                    <h5 class="font-DMSans font-bold pb-3 text-2xl">Contact</h5>
+                    <p class="font-DMSans font-normal text-base mb-2">21 Valentin Rapids Apt. 335 
+                        New Jersey, New York, USA</p>
+                    <p class="mb-2 font-bold"><strong>+1 (243) 576-98-02</strong></p>
+                    <p><a class="font-bold hover:text-primary-color" href="mailto:info@company.com" title="Enviar correo">info@company.com</a></p>
+                </div>
+                <div class="map mb-14 lg:mb-9">
+                    <h5 class="font-DMSans font-bold pb-3 text-2xl">Map</h5>
+                    <div class="map-container rounded-md overflow-hidden">
+                        <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755.8463419504536!2d-74.17509783036196!3d40.73154511446793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c253776c784a4b%3A0x3c37672449cd2cb6!2s22%20Hill%20St%2C%20Newark%2C%20NJ%2007102%2C%20EE.%20UU.!5e0!3m2!1ses!2smx!4v1700341392756!5m2!1ses!2smx" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrigtht  bg-footer-color py-4">
+            <div class="container">
+                <div class="copyright flex justify-between items-center">
+                    <p class="font-DMSans font-normal">© Copyright 2023</p>
+                    <ul class="flex">
+                        <li class="m-1">
+                            <a href="#" title="Ir a Facebook">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="hover:fill-primary-color" fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.164 0 0 7.164 0 16C0 24.836 7.164 32 16 32C24.836 32 32 24.836 32 16C32 7.164 24.836 0 16 0ZM16 2.66667C23.352 2.66667 29.3333 8.648 29.3333 16C29.3333 23.352 23.352 29.3333 16 29.3333C8.648 29.3333 2.66667 23.352 2.66667 16C2.66667 8.648 8.648 2.66667 16 2.66667ZM10.6667 13.3333H13.3333V11.0773C13.3333 9.056 14.3973 8 16.7947 8H20V11.3333H18.0773C17.4613 11.3333 17.3333 11.5853 17.3333 12.2227V13.3333H20L19.76 16H17.3333V24H13.3333V16H10.6667V13.3333Z" fill="#EEEEEE"/>
+                                </svg>                            
+                            </a>
+                        </li>
+                        <li class="m-1">
+                            <a href="#" title="Ir a Twitter">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="hover:fill-primary-color" fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.164 0 0 7.164 0 16C0 24.836 7.164 32 16 32C24.836 32 32 24.836 32 16C32 7.164 24.836 0 16 0ZM16 2.66667C23.352 2.66667 29.3333 8.648 29.3333 16C29.3333 23.352 23.352 29.3333 16 29.3333C8.648 29.3333 2.66667 23.352 2.66667 16C2.66667 8.648 8.648 2.66667 16 2.66667ZM22.7813 12.2213C23.4453 12.1413 24.0787 11.9653 24.6667 11.704C24.2267 12.3627 23.6707 12.9413 23.028 13.4027C23.236 18.02 19.7933 23.168 13.6973 23.168C11.844 23.168 10.12 22.6253 8.66667 21.6933C10.4093 21.8987 12.1467 21.4147 13.5293 20.332C12.0947 20.3053 10.88 19.3573 10.4627 18.0533C10.9773 18.152 11.484 18.1227 11.9453 17.9973C10.3667 17.68 9.276 16.2573 9.312 14.7373C9.75467 14.9827 10.26 15.1307 10.7973 15.148C9.336 14.1707 8.92133 12.24 9.78133 10.7653C11.4 12.7507 13.82 14.0573 16.5467 14.1947C16.068 12.1413 17.6253 10.164 19.7453 10.164C20.688 10.164 21.5427 10.5627 22.14 11.2013C22.888 11.0547 23.5907 10.7813 24.2253 10.4053C23.9787 11.172 23.46 11.8147 22.7813 12.2213Z" fill="#EEEEEE"/>
+                                </svg>                                                       
+                            </a>
+                        </li>
+                        <li class="m-1">
+                            <a href="#" title="Ir a Instagram">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="hover:fill-primary-color" fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.164 0 0 7.164 0 16C0 24.836 7.164 32 16 32C24.836 32 32 24.836 32 16C32 7.164 24.836 0 16 0ZM16 2.66667C23.352 2.66667 29.3333 8.648 29.3333 16C29.3333 23.352 23.352 29.3333 16 29.3333C8.648 29.3333 2.66667 23.352 2.66667 16C2.66667 8.648 8.648 2.66667 16 2.66667ZM19.2333 9.48933C18.3893 9.45067 18.136 9.44267 16 9.44267C13.864 9.44267 13.6107 9.44933 12.768 9.488C10.5973 9.58667 9.58667 10.6147 9.488 12.768C9.45067 13.6107 9.44133 13.864 9.44133 16C9.44133 18.136 9.45067 18.3893 9.488 19.232C9.588 21.38 10.5947 22.412 12.768 22.512C13.6107 22.5507 13.864 22.5587 16 22.5587C18.1373 22.5587 18.3893 22.5493 19.2333 22.512C21.404 22.4133 22.4133 21.3827 22.5133 19.232C22.5507 18.3893 22.5587 18.136 22.5587 16C22.5587 13.864 22.5507 13.612 22.5133 12.768C22.4133 10.616 21.4027 9.588 19.2333 9.48933ZM16 8C13.8267 8 13.556 8.00933 12.7013 8.04933C9.79467 8.18267 8.18133 9.79467 8.048 12.7013C8.00933 13.556 8 13.828 8 16C8 18.1733 8.00933 18.4453 8.048 19.2987C8.18133 22.204 9.79467 23.8187 12.7013 23.952C13.556 23.9907 13.8267 24 16 24C18.1733 24 18.4453 23.9907 19.3 23.952C22.2013 23.8187 23.8213 22.2067 23.952 19.2987C23.9907 18.4453 24 18.1733 24 16C24 13.828 23.9907 13.556 23.952 12.7013C23.8213 9.79867 22.2067 8.18133 19.3 8.04933C18.4453 8.00933 18.1733 8 16 8ZM11.892 16C11.892 13.7307 13.732 11.892 16 11.892C18.268 11.892 20.108 13.732 20.108 16C20.108 18.2693 18.268 20.108 16 20.108C13.732 20.108 11.892 18.2693 11.892 16ZM16 18.6667C14.5267 18.6667 13.3333 17.4733 13.3333 16C13.3333 14.528 14.5267 13.3333 16 13.3333C17.472 13.3333 18.668 14.5267 18.668 16C18.668 17.4733 17.472 18.6667 16 18.6667ZM19.3093 11.7307C19.3093 11.2 19.74 10.7707 20.2693 10.7707C20.8013 10.7707 21.2307 11.2 21.2307 11.7307C21.2307 12.2613 20.8 12.6907 20.2693 12.6907C19.7387 12.6907 19.3093 12.26 19.3093 11.7307Z" fill="#EEEEEE"/>
+                                </svg>                                                      
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>

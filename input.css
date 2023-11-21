@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@layer components {
+    .red-button {
+      @apply bg-primary-color text-white rounded-full p-3 hover:bg-accent-color transition delay-150 duration-300 ease-in-out
+    }
+    .blog-card{
+      @apply rounded-md bg-primary-color text-white p-5 lg:pr-20 w-full lg:w-1/3 lg:max-w-sm mb-5
+    }
+    .salud-card{
+      @apply rounded-md bg-white text-accent-color p-5 w-full md:w-full lg:w-1/3 lg:max-w-sm mb-5 text-center
+    }
+    .plan-card{
+      @apply rounded-md bg-white p-5 text-center block border-white border-2 hover:border-primary-color transition delay-100 duration-100 ease-in-out
+    }
+    .form-input{
+      @apply px-4 py-3 rounded w-full md:w-72 border-[#DADADA] placeholder:font-DMSans placeholder:text-base placeholder:text-[#DADADA]
+    }
+    .error{
+      @apply text-primary-color font-DMSans text-[12px]
+    }
+}

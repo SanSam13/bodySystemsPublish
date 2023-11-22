@@ -1,5 +1,5 @@
 //Inicialización del carrusel con Tiny Slider
-/* import { tns } from "../../../node_modules/tiny-slider/src/tiny-slider.js"; */
+
 var slider = tns({
     container: '.my-slider',
     gutter: 20,
